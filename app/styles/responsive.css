@@ -1,0 +1,57 @@
+@media only screen and (max-width: 730px) and (min-device-width: 730px) {
+
+  .container {
+    width: 100%;
+  }
+
+  .support_button {
+    min-width: 88%;
+    font-size: 1.33em;
+  }
+
+  .head_bar {
+    width: 95%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+}
+
+@media only screen and (max-width: 518px) and (min-device-width: 320px) {
+
+  .container {
+    width: 100%;
+  }
+
+  h2 {
+    font-size: 1.25em;
+  }
+
+  .image_area, .logo_area {
+    width: 100%;
+    float: none;
+    text-align: center;
+  }
+
+  .logo_area > img {
+    width: 90%;
+  }
+
+  .picture_area {
+    width: 85%;
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+  }
+
+  .support_button {
+    font-size: 24px;
+  }
+
+  .clear {
+    clear: none;
+  }
+
+}
+

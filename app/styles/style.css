@@ -1,0 +1,378 @@
+body {
+  background-color: #24221f; /* This is a charcoal background */
+  /* background-color: #1c135f; This is a background that matches the container */
+  /* background: -webkit-linear-gradient(#1c135f, #1c137a, #1c135f); /* For Safari 5.1 to 6.0 */
+  /* background: -o-linear-gradient(#1c135f, #1c137a, #1c135f); /* For Opera 11.1 to 12.0 */
+  /* background: -moz-linear-gradient(#1c135f, #1c137a, #1c135f); /* For Firefox 3.6 to 15 */
+  /* background: linear-gradient(#1c135f, #1c137a, #1c135f); /* Standard syntax */
+}
+
+img {
+  width: 100%;
+}
+
+.container {
+  width: 80%;
+  max-width: 1040px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px;
+  background-color: #16205b;
+  border-radius: 14px;
+  min-height: 400px;
+
+}
+
+.logo_left {
+  float: left;
+  width: 33%;
+}
+
+.upper_button_area {
+  float: right;
+  width: 67%;
+}
+
+.head_button, .fb_button {
+  float: right;
+  width: 215px;
+  height: 47px;
+  line-height: 47px;
+  text-align: center;
+  margin: 13px;
+}
+
+.head_button{
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  text-shadow: 2px 2px 2px black;
+  color: white;
+  background: -webkit-linear-gradient(#f4f301, #ce9208); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#f4f301, #ce9208); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#f4f301, #ce9208); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#f4f301, #ce9208); /* Standard syntax */
+}
+
+.head_button:hover {
+  background: -webkit-linear-gradient(#ce9208, #f4f301); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#ce9208, #f4f301); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#ce9208, #f4f301); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#ce9208, #f4f301); /* Standard syntax */
+}
+
+.fb_button {
+  background-color: #3b5998;
+  font-family: Tahoma;
+  text-shadow: 1px 1px 1px black;
+  color: #ffffff;
+}
+
+.fb_button > span {
+  font-size: 24px;
+  text-shadow: none;
+}
+
+.fb_button > img {
+  height: 20px;
+  width: 20px;
+}
+
+.fb_button:hover {
+  background-color: #25386e;
+}
+
+.first_bar {
+  width: 100%;
+  margin-bottom: 8px;
+  max-height: 373px;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.head_image {
+  width: 75%;
+  float: left;
+  max-height: 373px;
+  image-align: bottom;
+  overflow: hidden;
+}
+
+.inset_image {
+  width: 25%;
+  float: left;
+  background-color: #1c135f;
+  /* box-shadow: inset 0 0 10px black; */
+}
+
+.inset_headshot {
+  max-height: 373px;
+  overflow: hidden;
+  /* width: 90%; */
+  /* margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px; */
+}
+
+.head_space {
+  min-height: 100px;
+}
+
+.small_head_space {
+  min-height: 25px;
+}
+
+.head_bar {
+  text-align: center;
+}
+
+nav {
+  background: -webkit-linear-gradient(#1c1336, #291c4f); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#1c1336, #291c4f); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#1c1336, #291c4f); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#1c1336, #291c4f); /* Standard syntax */
+  min-height: 46px;
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.nav_buffer {
+  width: 95%;
+  float: right;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+}
+
+.nav_button {
+  float: left;
+  text-decoration: none;
+  text-shadow: 1px 1px 1px black;
+  color: #8ca6c2;
+  font-family: Helvetica;
+  font-size: 0.9rem;
+  /*width: auto;*/
+  padding-left: 15px;
+  padding-right: 15px;
+  height: 44px;
+  line-height: 44px;
+}
+
+.nav_button:hover {
+  color: #9ab3c4;
+  background-color: #16205b;
+}
+
+h2 {
+  font-weight: normal;
+  font-size: 32px;
+  font-family: 'Open Sans Condensed', Arial, 'sans-serif';
+  color: #f4f301;
+}
+
+.main_content > h2 {
+  font-size: 40px;
+  font-weight: bold;
+  font-family: Times;
+  color: black;
+  margin-bottom: 0;
+}
+
+.main_content {
+  float: left;
+  width: 65%;
+  background-color: white;
+  margin: 10px;
+  padding: 15px;
+  font-size: 18px;
+}
+
+.main_content > p {
+  text-align: justify;
+}
+
+.main_content > h5 {
+  margin-bottom: 0 !important;
+  margin-top: 0 !important;
+}
+
+.main_content > h3 {
+  margin-bottom: 0 !important;
+}
+
+ul > p {
+  font-weight: bold;
+  font-family: Arial;
+  font-style: italic;
+  font-size: 18px;
+  margin-bottom: 5px !important;
+}
+
+ul li {
+  margin-left: 45px;
+}
+
+.events {
+  background-color: #fff001;
+  font-family: 'Lato', sans-serif;
+  color: white;
+  margin: 10px;
+  width: 25%;
+  float: left;
+}
+
+.events_title {
+  font-size: 28px;
+  font-weight: bold;
+  text-shadow: 2px 2px 2px black;
+  padding: 22px;
+}
+
+.events_body {
+  font-size: 18px;
+  font-family: Helvetica;
+  color: black;
+  text-shadow: 1px 1px 1px white;
+  padding: 22px;
+}
+
+.events_body > h3, h4 {
+  margin: 0;
+  padding: 0;
+}
+
+.event_info {
+  margin-left: 15px;
+}
+
+.events_spacer {
+  min-height: 15px;
+}
+
+.image_area {
+  width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.logo_area {
+  float: left;
+  width: 50%;
+  text-align: center;
+  background-color: #1c135f; /* This matches the flat blue background */
+}
+
+.logo_area > img {
+  width: 80%;
+  padding-bottom: 12%;
+}
+
+.picture_area {
+  max-height: 383px;
+  float: right;
+  width: 50%;
+  overflow: hidden;
+}
+
+.contact_bar {
+  text-align: center;
+  color: white;
+  font-size: 18px;
+  margin: 5px;
+  font-family: 'Lato', sans-serif;
+  padding-top: 60px;
+}
+
+.clear {
+  clear: both;
+}
+
+.support_bar {
+  border-radius: 7px;
+  padding: 5px;
+  background-color: #69bee8;
+  text-align: center;
+  font-size: 24px;
+  /*font-family: 'Open Sans Condensed', Arial, 'sans-serif';*/
+  font-weight: bold;
+  color: #1c135f;
+  width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.support_area {
+  width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.email_feeder {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  color: #69bee8;
+  font-weight: bold;
+}
+
+input {
+  background-color: #f4f301;
+  height: 31px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.support_button, .continue_button {
+  height: 62px;
+  line-height: 62px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Lato', sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  text-shadow: 2px 2px 2px black;
+  color: white;
+  background: -webkit-linear-gradient(#f4f301, #ce9208); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#f4f301, #ce9208); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#f4f301, #ce9208); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#f4f301, #ce9208); /* Standard syntax */
+}
+
+.support_button:hover, .continue_button:hover {
+  background: -webkit-linear-gradient(#ce9208, #f4f301); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#ce9208, #f4f301); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#ce9208, #f4f301); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#ce9208, #f4f301); /* Standard syntax */
+}
+
+.support_button {
+  width: 88%;
+  min-width: 206px;
+}
+
+.continue_button {
+  width: 35%;
+  min-width: 213px;
+  font-size: 1em;
+}
+
+footer {
+  text-align: center;
+  color: white;
+
+}
+
+.legalese {
+  border: 1px solid white;
+  max-width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Open Sans Condensed', Arial, 'sans-serif';
+}
+

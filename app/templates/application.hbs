@@ -1,0 +1,130 @@
+<div class="container">
+
+  <div class="small_head_space"></div>
+
+  <header>
+    <a href="about">
+      <div class="logo_left">
+        <img src="./media/dalton_logo.jpg">
+      </div>
+    </a>
+
+      <div class="upper_button_area">
+      {{#link-to "contact"}}
+        <div class="head_button">
+          CONTACT
+        </div>
+      {{/link-to}}
+      <div class="clear"></div>
+
+      <a href="https://www.facebook.com/billdaltonfororegon" target="_blank">
+        <div class="fb_button">
+          Like Bill on <span>facebook</span> <!--<img src="facebook_f.jpeg">-->
+        </div>
+      </a>
+      <div class="clear"></div>
+
+      <a href="support">
+        <div class="head_button">
+          DONATE
+        </div>
+      </a>
+    </div>
+
+    <div class="clear"></div>
+
+  </header>
+
+  <nav>
+    <div class="nav_buffer">
+      {{#link-to "about"}}
+        <div class="nav_button">
+          WHY I'M RUNNING
+          <div class="clear"></div>
+        </div>
+      {{/link-to}}
+
+      {{#link-to "issues"}}
+        <div class="nav_button">
+          ISSUES & PRIORITIES
+          <div class="clear"></div>
+        </div>
+      {{/link-to}}
+
+      {{#link-to "bio"}}
+        <div class="nav_button">
+          BIO
+          <div class="clear"></div>
+        </div>
+      {{/link-to}}
+
+      {{#link-to "community"}}
+        <div class="nav_button">
+          COMMUNITY INVOLVEMENT
+          <div class="clear"></div>
+        </div>
+      {{/link-to}}
+
+      {{#link-to "endorsements"}}
+        <div class="nav_button">
+          ENDORSEMENTS
+          <div class="clear"></div>
+        </div>
+      {{/link-to}}
+
+      {{#link-to "contact"}}
+        <div class="nav_button">
+          CONTACT & SUPPORT
+          <div class="clear"></div>
+        </div>
+      {{/link-to}}
+    </div>
+    <div class="clear"></div>
+  </nav>
+
+  <div class="first_bar">
+
+    <div class="head_image">
+
+      <img src="./media/nature_one.jpg" size="100%">
+
+    </div>
+
+    <div class="inset_image">
+
+      <!--<div class="inset_headshot">-->
+
+        <img src="./media/bill_headshot_3.jpg">
+
+      <!--</div>-->
+
+    </div>
+
+    <div class="clear"></div>
+
+  </div>
+
+
+  {{outlet events}}
+
+  {{outlet}}
+
+  <div class="clear"></div>
+
+  <div class="contact_bar">
+
+    BillDaltonForStateRep@gmail.com  |  541-301-4962
+
+  </div>
+
+  <footer>
+
+    <div class="legalese">
+
+     Paid for and Authorized by Bill Dalton for State Representative
+
+    </div>
+
+  </footer>
+</div>
+
