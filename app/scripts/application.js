@@ -30,3 +30,10 @@ Dalton.EventsRoute = Ember.Route.extend({
     this.render({ outlet: 'events' });
   }
 });
+
+// Dalton.MainRoute = Ember.Route.extend({
+//   renderTemplate: function() {
+//     console.log('in main rendering');
+//     this.render({outlet: 'main'});
+//   }
+// });

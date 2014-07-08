@@ -215,12 +215,18 @@ ul li {
 }
 
 .events {
+  text-decoration: none;
   background-color: #fff001;
   font-family: 'Lato', sans-serif;
   color: white;
   margin: 10px;
   width: 25%;
   float: left;
+}
+
+.events a {
+  color: black;
+  text-decoration: none;
 }
 
 .events_title {
